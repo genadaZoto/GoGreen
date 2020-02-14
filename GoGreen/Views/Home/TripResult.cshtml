@@ -1,0 +1,44 @@
+﻿<div class="login">
+    <form class="formulaire" action="/Home/TripResult" method="post">
+        <div class="text-center">
+            <h1 class="h4 text-gray-900 mb-4">Here are your greenest options...</h1>
+        </div>
+
+
+
+
+        <div class="form-group">
+            <ul>
+                <li>
+
+                    <label><input type="radio" value="Bike" name="trip"> <i class="fas fa-leaf"></i></label>
+                    <span>Bike - 15 min</span>
+                    <p class="tripChoice">Details: Turn left at Rue Gaucheret, go straight on C# and turn right on Place Symphony... you have arrived at your Europass Certificate</p>
+                    <p class="tripChoice">With this trip you earn this badge:&nbsp;<img class="imgBadges" src="~/Images/panda.png" /><br></p>
+                </li>
+
+                <li>
+                    <label><input type="radio" value="Tram" name="trip"> <i class="fas fa-leaf"></i></label>
+                    <span>Tram - 18 min</span>
+                    <p class="tripChoice">Details: Tram 3 </p>
+                    <p class="tripChoice">With this trip you earn this badge:&nbsp;&nbsp;<img class="imgBadges" src="~/Images/river.png" /><br></p>
+                </li>
+                <li>
+  
+                    <label><input type="radio" value="Train" name="trip"> <i class="fas fa-leaf"></i></label>
+                    <span>Train - 13 min</span>
+                    <p class="tripChoice">Details: IC, S2, S3</p>
+                    <p class="tripChoice">With this trip you earn this badge:<img class="imgBadges" src="~/Images/flower.png" /><br></p>
+                </li>
+
+            </ul>
+        </div>
+
+
+        <input class="btn btn-primary btn-user btn-block" type="submit" value="Validate" />
+        @*<hr>*@
+
+    </form>
+</div>
+
+

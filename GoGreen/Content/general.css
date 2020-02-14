@@ -1,0 +1,117 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Philosopher&display=swap');
+
+body {
+    height: 100vh !important;
+    /*background-image: linear-gradient(rgb(120, 206, 138), rgb(30, 152, 156));*/
+    background-image: linear-gradient(rgb(211, 216, 31), rgb(31, 192, 185));
+}
+
+html, body {
+    font-family: 'Philosopher', sans-serif;
+}
+
+
+.navbar-header, .btn-primary, .navbar-collapse, .navbar-toggle {
+    background-color: rgb(80, 192, 131)!important;
+}
+
+.nav a, .nav li {
+    color: #337Ab7 !important;
+}
+
+.btn-primary {
+    border-color: rgb(220, 247, 201) !important;
+}
+
+.navbar-inverse .navbar-brand {
+    color: rgb(12, 179, 218) !important;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: rgb(12, 179, 218) !important;
+}
+
+#ourName {
+    position: fixed;
+    top: 2%;
+    left: 5%;
+    font-size: 2rem;
+}
+
+#ourName span {
+    color: rgb(172, 216, 135);
+}
+
+.formulaire input {
+    margin: 0 auto;
+}
+
+.body-content {
+    text-align: center;
+    padding-top: 5%;
+    height: 90%;
+    border-bottom: 1px solid rgb(220, 247, 201);
+}
+
+.body-content ul {
+    height: 85%;
+    overflow: scroll;
+}
+
+footer {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+    color: rgb(220, 247, 201);
+}
+
+.form-group input {
+    background-color: rgb(220, 247, 201);
+}
+
+.navbar-inverse, .navbar-collapse, .navbar-form {
+    border-color: rgb(206, 244, 179)!important;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.badges li {
+    padding: 3vh 0;
+    color: darkred;
+}
+
+.tripChoice {
+    font-size: 1.2rem;
+    width: 95%;
+}
+
+label > input {
+    display: none;
+}
+
+label > input + i {
+    cursor: pointer;
+}
+
+label > input:checked + i {
+   color:  darkred;
+}
+
+i {
+    color: rgb(220, 247, 201);
+}
+.imgBadges{
+    max-height: 4vh;
+}
+.sponsor {
+    max-height: 6vh !important;
+}
+.badges p {
+    padding: 3vh 0;
+    color: #333;
+}
